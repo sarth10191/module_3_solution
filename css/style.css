@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  padding: 0px;
+  border: 2px solid black;
+}
+
+#company_name {
+  text-decoration: none;
+  font-size: 30px;
+  margin: 10px;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+.navbar-nav{
+  background-color: white;
+}
+
+
+.myheading{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: cursive;
+}
+
+.chicken{
+  justify-content: center;
+  background-color: grey;
+  font-family: cursive;
+  height: 1100px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  font-weight: 800;
+}
+
+#navbar_container{
+  background-color: grey;
+}
+
+.menu_heading{
+    font-size:30px ;
+}
+
+.chicken p{
+  padding: 20px;
+}
+
+.navbar_button{
+  visibility:hidden;
+}
+
+.navbar_button a{
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.navbar_button a:nth-child(1){
+  border-top: 2px solid black;
+}
+
+#navbar_brand{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: cursive;
+}
+
+@media (max-width: 576px){
+  .navbar_button{
+    visibility:visible;
+  }
+}
